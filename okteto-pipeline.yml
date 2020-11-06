@@ -23,5 +23,11 @@ after_success:
 #    on_success: change # default: change
 #    on_failure: always # default: always
 
-devs:
-    okteto.yml
+name: test
+command: ["bash"]
+forward:
+  - 5901 : 5901
+sync:
+  - .:/src
+persistentVolume:
+  enabled: true
