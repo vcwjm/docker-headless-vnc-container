@@ -1,9 +1,8 @@
-name: api
+name: test
 command: ["bash"]
 forward:
-  - 8080:8080
-  - 9229:9229
+  - 5901 : 5901
 sync:
   - .:/src
 persistentVolume:
-  enabled: false
+  enabled: true
