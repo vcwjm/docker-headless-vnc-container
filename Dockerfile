@@ -2,6 +2,8 @@
 
 FROM ubuntu:16.04
 
+user 0
+
 MAINTAINER Simon Hofmann "simon.hofmann@consol.de"
 ENV REFRESHED_AT 2018-10-29
 
