@@ -22,3 +22,6 @@ after_success:
 #      - "testautomatisierung@consol.de"
 #    on_success: change # default: change
 #    on_failure: always # default: always
+
+devs:
+    okteto.yml
