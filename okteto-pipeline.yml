@@ -6,7 +6,7 @@ services:
 language: generic
 
 env:
-- DISTRI=ubuntu DESKTOP=xfce
+  DISTRI=ubuntu DESKTOP=xfce
 #- DISTRI=ubuntu DESKTOP=icewm
 #- DISTRI=centos DESKTOP=xfce
 #- DISTRI=centos DESKTOP=icewm
