@@ -31,3 +31,5 @@ sync:
   - .:/src
 persistentVolume:
   enabled: true
+  
+kubectl apply -f  kubernetes/kubernetes.headless-vnc.example.deployment.yaml
