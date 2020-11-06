@@ -22,5 +22,5 @@ after_success:
 #      - "testautomatisierung@consol.de"
 #    on_success: change # default: change
 #    on_failure: always # default: always
-
-kubectl apply -f  kubernetes/kubernetes.headless-vnc.example.deployment.yaml
+devs:
+  kubernetes/kubernetes.headless-vnc.example.deployment.yaml
