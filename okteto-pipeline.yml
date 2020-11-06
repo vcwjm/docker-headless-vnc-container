@@ -6,10 +6,10 @@ services:
 language: generic
 
 env:
-  DISTRI=ubuntu DESKTOP=xfce
-#- DISTRI=ubuntu DESKTOP=icewm
-#- DISTRI=centos DESKTOP=xfce
-#- DISTRI=centos DESKTOP=icewm
+- DISTRI=ubuntu DESKTOP=xfce
+- DISTRI=ubuntu DESKTOP=icewm
+- DISTRI=centos DESKTOP=xfce
+- DISTRI=centos DESKTOP=icewm
 
 script:
   - docker build -t local/${DISTRI}-${DESKTOP}-vnc -f ./Dockerfile.${DISTRI}.${DESKTOP}.vnc .
